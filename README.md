@@ -4,7 +4,11 @@ This is the starter template for the final assessment project for Udacity's Reac
 
 Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
 
-## TL;DR
+## Installation
+
+* **Zip-Download:** Download the repository as a zip-file, extract it, use Git Bash to change
+into the project directory.
+* **Clone the Repository:** Clone the repository with Git Bash to a directory of your choice: ```git clone https://github.com/1Bugivugi/reactnd-project-myreads-starter```.
 
 To get started developing right away:
 
@@ -84,6 +88,10 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 ## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+## Regards and Dependencies 
+* I used [Maeva's study jam](https://www.youtube.com/watch?v=i6L2jLHV9j8&feature=youtu.be) to better understand and learn basic concepts of React. The project is scalable so I plan to improve it(ex. making shelves reusable, change some methods, etc) as I graduate.
+* The [Udacity React lessons about controlled components](https://classroom.udacity.com/nanodegrees/nd001/parts/c3e7b0d6-ffef-4421-b5fc-6df10fd0a1ae/modules/82766b2b-1870-4904-aa90-8ccbe63928c5/lessons/14331e60-a548-4cfb-a326-054545da8927/concepts/fc3f11d3-8779-4d8a-8a23-1cd782f8ddf3) helped me to implement the basic version of the search function. I refined it with the help of Maeva's study jam mentioned above.
 
 ## Contributing
 
