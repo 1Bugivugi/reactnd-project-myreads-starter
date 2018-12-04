@@ -2,6 +2,16 @@
 
 This project was created with a starter template for the final assessment project for Udacity's React Fundamentals course. The template provided a static example of the CSS and HTML markup that I used to implement the necessary React code that I needed to complete the project. I added interactivity to the project and made it dynamic.
 
+## Table of Contents
+
+* [Installation](#installation)
+* [What You're Getting](#whatYou)
+* [Backend Server](#backendServer)
+* [Important](#important)
+* [Create React App](#createReactApp)
+* [Regards and Dependencies](#regards)Contributing
+* [Contributing](#contributing)
+
 ## Installation
 
 * **Zip-Download:** Download the repository as a zip-file, extract it, use Git Bash to change
