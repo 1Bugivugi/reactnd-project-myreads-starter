@@ -13,10 +13,12 @@ class SearchPage extends Component {
   getSearchedBooks = (query) => {
     if (query){
       BooksAPI.search(query).then((searchedBooks) => {
-        if (searchedBooks.error){
-          this.setState({ searchedBooks: [] })
-        } else {
-          this.setState({ searchedBooks }) // its actually ({searchedBooks: searchedBooks}) - they are the same, so we have what we have
+        if(query === this.state.query){ // let's us provide right response for the certain request
+          if (searchedBooks.error){
+            this.setState({ searchedBooks: [] })
+          } else {
+            this.setState({ searchedBooks }) // its actually ({searchedBooks: searchedBooks}) - they are the same, so we have what we have
+          }
         }
       })
     } else {

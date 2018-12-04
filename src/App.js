@@ -19,12 +19,13 @@ class BooksApp extends React.Component {
   }
 
   changeShelf = (book, shelf) => {
-    BooksAPI.update(book, shelf)
-    // this.forceUpdate()
-    // this.setState({ state : this.state })
-    BooksAPI.getAll().then((books) => { //TODO: redo and save this into another reusable method
-      this.setState({ books }) //P.S. It seems like it doesnt always re-render the page, fix -> ?
+    BooksAPI.update(book, shelf).then(() =>
+      BooksAPI.getAll().then((books) => { //TODO: redo and save this into another reusable method
+        this.setState({ books }) //P.S. It seems like it doesnt always re-render the page, fix -> ?
     })
+  )
+    // this.forceUpdate()
+    // this.setState({ state : this.state }) // Maybe there's a way to make this work?
   }
 
   render() {
