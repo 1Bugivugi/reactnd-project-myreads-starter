@@ -9,7 +9,7 @@ This project was created with a starter template for the final assessment projec
 * [Backend Server](#backendServer)
 * [Important](#important)
 * [Create React App](#createReactApp)
-* [Regards and Dependencies](#regards)Contributing
+* [Regards and Dependencies](#regardsAndDependencies)
 * [Contributing](#contributing)
 
 ## Installation
